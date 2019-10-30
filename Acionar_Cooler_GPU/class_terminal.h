@@ -30,8 +30,6 @@ public:
     void OpenTerminal();
     void OpenTerminal(QStringList code);
     void OpenTerminal2(QStringList code);
-//    void OpenTerminal(QStringList code1, QStringList code2);
-//    void PrintCodeTerminal(QStringList code);
 
     QString GetCurrentDir();
     bool MakeExecutableFileSH(QString DirPath, QString FileName , QStringList CodeLines);

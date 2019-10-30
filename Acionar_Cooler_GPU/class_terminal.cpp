@@ -54,9 +54,6 @@
         OperadorTerminal->waitForStarted();
     }
 
-
-
-
 //#pragma endregion
 
 
