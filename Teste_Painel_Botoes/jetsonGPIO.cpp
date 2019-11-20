@@ -8,7 +8,7 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <poll.h>
-#include "../include/project_pkg/jetsonGPIO.h"
+#include "jetsonGPIO.h"
 
 
 //
