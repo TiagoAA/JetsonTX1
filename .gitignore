@@ -1,7 +1,23 @@
 # Remover pastas a serem enviadas ao github
+<<<<<<< HEAD
 ./Teste_Painel_Botoes/html/
 ./Teste_Painel_Botoes/latex/
  build-Teste_Painel_Botoes-QT_5_5_1_Jetson-Debug/
 
 
 
+=======
+./Teste_Painel_Botoes/html
+./Teste_Painel_Botoes/latex
+
+
+
+
+
+
+
+
+
+
+ 
+>>>>>>> 313fcd37a8c748825cf09611d4fec97c5e861d0a
