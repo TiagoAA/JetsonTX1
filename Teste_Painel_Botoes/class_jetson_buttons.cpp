@@ -15,7 +15,7 @@ Class_Jetson_Buttons::Class_Jetson_Buttons()
  * @param pinName
  * @param Status
  */
-Class_Jetson_Buttons::ButtonOutPut(int &pinName, int &Status)
+void Class_Jetson_Buttons::ButtonOutPut()//(int &pinName, int &Status)
 {
 
     unsigned int pButtonStates[8] = {0,0,0,0,0,0,0,0};

@@ -32,7 +32,7 @@ private:
 public:
     Class_Jetson_Buttons();
 
-    void ButtonOutPut(int &pinName, int &Status);
+    void ButtonOutPut();//(int &pinName, int &Status);
 
 
 
