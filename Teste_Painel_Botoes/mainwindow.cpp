@@ -15,7 +15,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->setupUi(this);
 
     /// Inicializar Timer
-    InicializarTimer(1000);
+    InicializarTimer(500);
 
 
 

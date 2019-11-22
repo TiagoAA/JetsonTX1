@@ -71,7 +71,7 @@ void Class_Jetson_Buttons::ButtonCheck()//(int &pinName, int &Status)
 {
 
     unsigned int pButtonStates[8] = {0,0,0,0,0,0,0,0};
-    char pinNames[8][20] = {"pin29", "pin37", "pin31", "redLEDredLEDpin18", "pin33", "pin16", "pin32", "pin13"};
+    char pinNames[8][20] = {"Botão 1", "Botão 2", " Botão 3", "Botão 4", "Botão 5", "Botão 6", "Botão 7", "Botão 8"};
     unsigned int pinAddresses[8] = {pin29, pin37, pin31, pin18, pin33, pin16, pin32, pin13};
 
     unsigned int pButtonDebouncing[8] = {0,0,0,0,0,0,0,0};
@@ -92,17 +92,18 @@ void Class_Jetson_Buttons::ButtonCheck()//(int &pinName, int &Status)
                     std::cout << pinNames[n] << " flag set to: " << pButtonStates[n] << std::endl;
                 }
             }
-            else
-            {
-                if(pButtonFlag[n] == high)
-                {
-                    pButtonFlag[n] = low;
-                    std::cout << pinNames[n] << " flag set to: " << pButtonStates[n] << std::endl;
-                }
-            }
+//            else
+//            {
+//                if(pButtonFlag[n] == high)
+//                {
+//                    pButtonFlag[n] = low;
+//                    std::cout << pinNames[n] << " flag set to: " << pButtonStates[n] << std::endl;
+//                }
+//            }
         }
 
-        std::cout << "Degug ButtonCheck()" << std::endl;
+        std::cout << "Debug ButtonCheck()" << std::endl;
+        usleep(100); // sleep for a millisecond
 
 }
 
